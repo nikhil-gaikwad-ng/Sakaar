@@ -3,8 +3,18 @@ html, body {
     padding: 0;
     overflow: hidden;
   }
+
+.main-image{
+    background-color: black;
+}
   
 .main-image img{
     width: 100vw;
     height: 100vh;
 }
+
+@media (max-width: 768px) {
+    .main-image img {
+      object-fit: contain;
+    }
+  }
